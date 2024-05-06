@@ -1,8 +1,13 @@
-# React + Vite
+Descripción del Proyecto
+Esta aplicación web desarrollada con React ofrece a los clientes la conveniencia de reservar sus citas en una barbería de manera fácil y segura desde la comodidad de su hogar. Con la integración de una pasarela de pago de Mercado Pago, los usuarios pueden realizar sus reservas y pagar por los servicios en línea de manera rápida y sencilla.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades Principales
+Reservas en Línea: Los clientes pueden navegar por los servicios ofrecidos por la barbería y seleccionar la fecha y hora deseada para su cita.
+Confirmación por Email: Una vez completada la reserva, se envía automáticamente un email al cliente con los detalles de la reserva, incluyendo el número de reserva y la información del servicio seleccionado.
+Integración de Mercado Pago: La aplicación cuenta con una pasarela de pago segura proporcionada por Mercado Pago, permitiendo a los usuarios pagar por sus reservas de manera segura con diversas opciones de pago disponibles.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologías Utilizadas
+React: La interfaz de usuario de la aplicación se ha desarrollado utilizando React, lo que garantiza una experiencia de usuario fluida e interactiva.
+Node.js y Express: El backend de la aplicación se ha construido utilizando Node.js y Express para manejar las solicitudes de reserva y la integración con Mercado Pago.
+Mercado Pago API: Se ha integrado la API de Mercado Pago para procesar los pagos de forma segura y confiable.
